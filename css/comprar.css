@@ -1,0 +1,225 @@
+.banner-shop{
+    background: url('../assets/img/hero-shop.png') no-repeat;
+    max-width: 100%;
+}
+
+.main-title-shop{
+    text-align: center;
+    font-family: var(--fontOne);
+    font-size: 3rem;
+    color: var(--colorSix);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 10%;
+}
+
+/* SHOP */
+.shop{
+    padding: 1rem; 
+    margin-top: 30px;
+}
+
+.shop-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.shop-title{
+    font-family: var(--fontOne);
+    font-size: 2rem;
+    color: var(--colorOne);
+}
+
+.shop-text{
+    font-family: var(--fontTwo);
+    font-size: 1.5rem;
+    color: var(--colorSeven);
+}
+
+.shop-icons-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.shop-icons{
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.shop-mercadoPago{
+    width: 80px;
+    height: 80px;
+}
+
+.shop-cashTrans{
+    width: 55px;
+    height: 55px;
+}
+
+.shop-iconText{
+    font-family: var(--fontTwo);
+    color: var(--colorTwo);
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/* DIVIDER */
+.huellita{
+    width: 90px;
+    height: 88px;
+}
+
+/* LOCATIONS */
+.locations{
+    margin: 3rem 0 8rem 0;
+}
+
+.locations-title{
+    font-family: var(--fontOne);
+    font-size: 2rem;
+    color: var(--colorOne);
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.locations-card{
+    border: none;
+    margin: 1rem;
+}
+
+.locations-img{
+    width: 80%;
+    height: 80%;
+    box-shadow: 4px 4px 6px 4px #E5E4EC;
+}
+
+div .col .locations-img{
+    display: block;
+    margin: auto;
+}
+
+.locations-card-title{
+    color: var(--colorThree);
+    font-family: var(--fontOne);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.locations-text{
+    font-family: var(--fontTwo);
+    font-size: 1rem;
+    text-align: center;
+}
+
+/* DELIVERY */
+.delivery-icon{
+    width: 61px;
+    height: 44px;
+}
+
+.delivery-subHeader{
+    font-family: var(--fontOne);
+    font-size: 2.25rem;
+    color: var(--colorOne);
+}
+
+.delivery-text{
+    font-family: var(--fontTwo);
+    font-size: 1.5rem;
+    color: var(--colorSeven);
+}
+
+@media (min-width: 992px){
+    .banner-shop{
+        height: 650px;
+    }
+}
+
+@media (max-width: 992px){
+    .banner-shop{
+        max-width: 100%;
+        height: 400px;
+        background-size: 100% 100%;
+    }
+    .shop-title, .shop-text{
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px){
+    .banner-shop{
+        max-width: 100%;
+        height: 320px;
+        background-size: 100% 100%;
+    }
+    /* SHOP */
+    .shop-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .shop-title{
+        margin-bottom: 2rem;
+    }
+    .shop-icons-container{
+        margin-bottom: 2rem;
+    }
+    .shop-icons{
+        padding: 0 2rem;
+    }
+
+    /* LOCATIONS */
+    .locations{
+        margin-bottom: 5rem;
+    }
+    .locations-card-title{
+        font-size: 1.25rem;
+    }
+    .locations-text{
+        padding: 0 2rem;
+        font-size: .75rem;
+    }
+}
+
+@media (max-width: 576px){
+    /* DIVIDER */
+    .huellita{
+        width: 60px;
+        height: 58px;
+    }
+}
+
+@media (max-width: 480px){
+    /* SHOP */
+    .shop-icons{
+        padding: 0 1rem;
+    }
+    .shop-title{
+        font-size: 1.25rem;
+    }
+    .shop-iconText, .shop-text{
+        font-size: .75rem;
+    }
+    .shop-mercadoPago{
+        width: 60px;
+        height: 60px;
+    }
+    .shop-cashTrans{
+        width: 45px;
+        height: 45px;
+    }
+
+    /* DELIVERY */
+    .delivery-icon{
+        width: 45px;
+        height: 32px;
+    }
+    .delivery-subHeader{
+        font-size: 1.25rem;
+    }
+    .delivery-text{
+        font-size: .75rem;
+    }
+}
