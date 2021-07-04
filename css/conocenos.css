@@ -3,22 +3,6 @@
     background: url('../assets/img/Hero.png') no-repeat;
     height: 650px;
 }
-/* nav.navbar{
-    background-color: rgba(106, 106, 106, 0.41);
-}
-.navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: .9rem;
-    padding-left: .9rem;
-}
-
-.nav-link{
-    color: var(--colorSix);
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.navbar-toggler{
-    border: none;
-}
 
 /* HEADER */
 header-nos{
@@ -284,54 +268,6 @@ color: #000000;
     width: 70%;
 }
 
-    /* FOOTER */
-    footer{
-        height: 100%;
-    }
-    .footer{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-    }
-    .footer-logo-container{
-        margin: 0;
-    }
-    .footer-links{
-        padding: 0;
-    }
-    .footer-social-container{
-        margin: 0 0 1rem 0;
-    }
-    .footer-instagram-container{
-        margin-bottom: 1rem;
-    }
-    .footer-whatsapp-container{
-        margin: 0;
-    }
-}
-
-@media (max-width: 480px){
-    /* PAYMENTS */
-    .payments-icons{
-        padding: 0 1rem;
-    }
-    .payments-title, .payments-subHeader{
-        font-size: 1.25rem;
-    }
-    .payments-iconText, .payments-text{
-        font-size: .75rem;
-    }
-    .payments-mercadoPago{
-        width: 60px;
-        height: 60px;
-    }
-    .payments-cashTrans{
-        width: 45px;
-        height: 45px;
-    }
-    .payments-delivery{
-        width: 45px;
-        height: 32px;
-    }
+.calificacion-num {
+    margin-left: 75%;    
 }
