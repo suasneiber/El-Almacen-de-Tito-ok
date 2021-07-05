@@ -1,11 +1,11 @@
 /*NAV BAR */
 .banner-conocenos{
-    background: url('../assets/img/Hero.png') no-repeat;
+    background: url('../assets/img/hero-about.png') no-repeat;
     height: 650px;
 }
 
 /* HEADER */
-header-nos{
+.header-nos{
     position:relative;    
 }
 
@@ -24,9 +24,7 @@ header-nos{
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 } 
 
-                        /***********
-                        DESCRIPCION 
-                        ***********/
+/* DESCRIPCION */
 .row-cols-lg-4 >*{
     flex: 0 0 auto;
     width: 65%;
@@ -51,8 +49,6 @@ p{
     font-size:  22px;
     font-style: normal;
     line-height: 33px;
-    
-    
 }
 
 .objetivo{
@@ -65,6 +61,7 @@ p{
     text-align: center;
     padding: 2%;
 }
+
 .objetivo p{
     color: #43BEC7;;
     font-style: normal;
@@ -72,9 +69,7 @@ p{
     padding: 0;
 }
 
-                        /***********
-                        DESCRIPCION 
-                        ***********/
+/* VALORES */
 .valores{
     position: absolute;
     margin: 20% 0;
@@ -104,8 +99,8 @@ p{
     text-align: center;
     color: #A9D156;
 }
-.valores p
-{
+
+.valores p {
 height: 216px;
 font-size: 18px;
 line-height: 27px;
@@ -118,10 +113,7 @@ color: #000000;
     margin-top: 45%;
 }
 
-                        /***********
-                          CLIENTES
-                        ***********/
-
+/* CLIENTES */
 .clientes{
     position: relative;
     margin-top: 5%;
@@ -135,53 +127,55 @@ color: #000000;
 .row{
     flex-wrap: nowrap;
 }
+
 .clientes .title{
     font-family: mama-papa;
     color: #A9D156;
     text-align: center;
 }
+
 .clientes .col{
-    
     height: 45%;
 }
+
 .row-cols-lg-4 > * {
     width: 33%;
 }
+
 .cliente-cards{
-    
     margin: 20% 17%;
     box-shadow: 4px 4px 6px 4px #E5E4EC;
     border-radius: 20px;
     width: 70%;
-
 }
+
 .calificacion{
     display: flex;
     margin-left: 15px;
 }
+
 .estrellas{
     max-width: 23px;
     margin: 15px 10px 0px 5px
 }
+
 .calificacion-num{
-   
     margin-top: 1px;position: absolute;
     margin-left: 60%;
     margin-top: -26px;
-    
 }
 
 .comentarios{
     font-size: 18px;   
     color: #343049;
 }
+
 .card-cliente{
     font-size: 16px;
     color: #807C97;
     margin: 0;
     padding: 0;
 }
-
 
 /* MEDIA QUERIES */
 
@@ -204,70 +198,53 @@ color: #000000;
         width: 30%;
         text-align: center;
     }
-    /* HEADER */
-    
-    
-            /***********
-            VALORES
-            ************/
-.valores{
-    position: relative;
-    margin: 80% 0;
-}
-.valores .calidad{
-    position: relative;
-    width: 100%;
-    float: none;
-    text-align: center;
-}
-.valores .confianza {
-    position: relative;
-    width: 100%;
-    float: none;
-    text-align: center;
-    margin-top: 35%;
-}
-.objetivo{
-    margin-top: 70%;
-    width: 375px;
-    top: 120%;
-    left: 10%;
-}
-
-.fin-valores{
-    /* position: relative;
-    margin: 0;
-    margin-left: 0px; */
-    width: 95%;
-    margin-left: 2%;
-}
-.img-valores{
-    max-width: 36%;
-}
-
-                    /***********
-                      VALORES
-                    ************/
-.clientes {
-    margin-top: 10%;
-}
-
-.row {
-    flex-wrap: wrap;
-    display: flex;
-}
-.cliente-cards{
-    width: 100%;
-    margin-left: 30%;
-}
-
-                    /**********
-                      CLIENTES
-                    **********/
-.row-cols-lg-4 > * {
-    width: 70%;
-}
-
-.calificacion-num {
-    margin-left: 75%;    
+    /* VALORES */
+    .valores{
+        position: relative;
+        margin: 80% 0;
+    }
+    .valores .calidad{
+        position: relative;
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .valores .confianza {
+        position: relative;
+        width: 100%;
+        float: none;
+        text-align: center;
+        margin-top: 35%;
+    }
+    .objetivo{
+        margin-top: 70%;
+        width: 375px;
+        top: 120%;
+        left: 10%;
+    }
+    .fin-valores{
+        width: 95%;
+        margin-left: 2%;
+    }
+    .img-valores{
+        max-width: 36%;
+    }
+    /* CLIENTES*/
+    .clientes {
+        margin-top: 10%;
+    }
+    .row {
+        flex-wrap: wrap;
+        display: flex;
+    }
+    .cliente-cards{
+        width: 100%;
+        margin-left: 30%;
+    }
+    .row-cols-lg-4 > * {
+        width: 70%;
+    }
+    .calificacion-num {
+        margin-left: 75%;    
+    }
 }

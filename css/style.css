@@ -217,32 +217,32 @@ header{
 }
 
 /* TIPS AND US */
-.tipsAndUs{
+.shopAndUs{
     margin-bottom: 10rem;
 }
-.tipsAndUs-card{
+.shopAndUs-card{
     border: none;
     margin: 1rem;
 }
 
-.tipsAndUs-img{
+.shopAndUs-img{
     width: 200%;
     height: 100%;
 }
 
-.tipsAndUs-titleOne{
+.shopAndUs-titleOne{
     color: var(--colorOne);
     font-family: var(--fontOne);
     font-size: 2rem;
     margin-bottom: 1rem;
 }
 
-.tipsAndUs-text{
+.shopAndUs-text{
     font-family: var(--fontTwo);
     font-size: 1rem;
 }
 
-.tipsAndUs-button{
+.shopAndUs-button{
     color: var(--colorTwo);
     font-family: var(--fontTwo);
     background-color: var(--colorSix);
@@ -250,6 +250,11 @@ header{
     margin: 1rem;
     padding: 0.5rem 2rem;
     border-radius: 60px;
+    border: 1px solid var(--colorTwo);
+}
+
+.shopAndUs-button:hover{
+    background-color: var(--colorTwo);
     border: 1px solid var(--colorTwo);
 }
 
@@ -306,7 +311,7 @@ footer{
     }
 
     /* TIPS AND US */
-    .tipsAndUs-titleTwo{
+    .shopAndUs-titleTwo{
         display: none;
     }
 }
@@ -430,16 +435,9 @@ footer{
     }
     .main-logo{
         display: none;
-        /*
-        position: sticky;
-        width: 171px;
-        height: 300px;
-        z-index: 0;*/
     }
     .titleTwo{
         padding-top: 0;
-        /*align-items: flex-end;*/
-        /*width: 100%;*/
         position: sticky;
         top: 130px;
         right: 70px;
@@ -501,28 +499,28 @@ footer{
     }
 
     /* TIPS AND US */
-    .tipsAndUs{
+    .shopAndUs{
         margin-bottom: 5rem;
     }
-    .tipsAndUs-titleOne{
+    .shopAndUs-titleOne{
         display: none;
     }
-    .tipsAndUs-titleTwo{
+    .shopAndUs-titleTwo{
         color: var(--colorOne);
         font-family: var(--fontOne);
         font-size: 2rem;
         margin-bottom: 1rem;
         text-align: center;
     }
-    .tipsAndUs-text{
+    .shopAndUs-text{
         padding: 0 2rem;
     }
-    .tipsAndUs-button{
+    .shopAndUs-button{
         font-size: 1rem;
         font-weight: 600;
         padding: 1rem 5rem;
     }
-    .tipsAndUs-center{
+    .shopAndUs-center{
         display: flex;
         flex-direction: row;
         justify-content: center;
