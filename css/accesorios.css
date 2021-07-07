@@ -20,6 +20,29 @@
     margin: 2rem 0;
 }
 
+.accesories-section{
+    padding: 2rem;
+    margin: 0;
+}
+
+.accesories-cards{
+    padding: 1rem;
+    margin: 1rem;
+    border: none;
+}
+
+.accesories-images{
+    padding: 1rem;
+    border-radius: 10px;
+    max-height: 50%;
+}
+
+.accesories-card-title{
+    font-family: var(--fontTwo);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
 .last-section{
     margin: 2rem 0;
 }
