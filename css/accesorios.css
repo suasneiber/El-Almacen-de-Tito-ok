@@ -29,12 +29,17 @@
     padding: 1rem;
     margin: 1rem;
     border: none;
+    width: 308px;
 }
 
 .accesories-images{
     padding: 1rem;
-    border-radius: 10px;
-    max-height: 50%;
+    width: 308px;
+    height: 308px;
+}
+
+.accesories-card-body{
+    width: 308px;
 }
 
 .accesories-card-title{

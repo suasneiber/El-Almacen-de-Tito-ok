@@ -178,7 +178,13 @@ header{
 .products-images{
     padding: 1rem;
     border-radius: 10px;
-    max-height: 50%;
+    max-height: 238px;
+}
+
+.products-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .product-card-title{
