@@ -131,6 +131,12 @@ div .col .locations-img{
     color: var(--colorSeven);
 }
 
+@media (min-width: 1440px){
+    .banner-shop{
+        background-size: 100% 100%;
+    }
+}
+
 @media (min-width: 992px){
     .banner-shop{
         height: 650px;
