@@ -316,9 +316,42 @@ footer{
         display: none;
     }
 
+    
+
     /* TIPS AND US */
     .shopAndUs-titleTwo{
         display: none;
+    }
+
+}
+@media (max-width: 1085px){
+    .header-dots{
+        display: none;
+    }
+    .titleOne{
+        padding-top: 0;
+    }
+    .main-titleOne{
+        margin-top: 45%;
+    }
+    .header-container-logo{
+        padding-left: 0;
+        margin-top: 12%;
+    }
+    /* .payments-container {
+        margin-left: 10%;
+        
+    } */
+}
+@media (min-width: 1000px){
+    .payments-container {
+        /* margin-left: 10%;
+        display: inline-flex; */
+    }
+}
+@media (max-width: 915px){
+    .main-titleOne{
+        margin-top: -100%;   
     }
 }
 @media (min-width: 992px){
@@ -333,8 +366,16 @@ footer{
     .nav-title{
         display: none;
     }
+    .payments-container{
+        /* margin-left: 46%; */
+        width: 100%;
+    }
 }
 @media (max-width: 992px){
+    .banner {
+     
+        height: 775px;
+    }
     nav.navbar{
         height: 46px;
     }
@@ -379,6 +420,13 @@ footer{
         color: var(--colorSix);
         border-bottom: 1px solid var(--colorSix);
     }
+
+                    /*Payments */
+    .payments-container{
+        /*margin-left: 46%;*/
+        width: 100%;
+    } 
+
 }
 
 @media (max-width: 768px){
@@ -464,6 +512,7 @@ footer{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-left: 5%;
     }
     .payments-title{
         margin-bottom: 2rem;
@@ -494,6 +543,10 @@ footer{
         background-color: #2c8b92;
     }
 
+    .products-cards{
+        width: 60%;
+        margin-left: 18%;
+    }
     /* ACCESORIES */
     .accesories-button{
         font-weight: 600;
@@ -560,6 +613,23 @@ footer{
     }
 }
 
+
+
+@media (max-width: 515px){
+    .accesories{
+        margin-left: -10%;
+    }
+}
+@media (max-width: 452px){
+    .accesories{
+        margin-left: -20%;
+    }
+}
+@media (max-width: 452px){
+    .accesories{
+        margin-left: -30%;
+    }
+}
 @media (max-width: 480px){
     /* PAYMENTS */
     .payments-icons{
@@ -582,5 +652,8 @@ footer{
     .payments-delivery{
         width: 45px;
         height: 32px;
+    }
+    .payments-container{
+        margin-left: 0;
     }
 }

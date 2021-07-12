@@ -1,14 +1,16 @@
 /*NAV BAR */
 .banner-conocenos{
-    background: url('../assets/img/hero-about.png') no-repeat;
+    background: url('../assets/img/Hero-2.png') no-repeat;
     height: 650px;
+    max-width: 100%;
+    width: 100%;
 }
+
 
 /* HEADER */
-.header-nos{
+/* header-nos{
     position:relative;    
 }
-
 .title-nos{
     position: relative;
     width: 20%;
@@ -16,15 +18,19 @@
     padding-top: 12%;
     margin-right: 36%
 }
+*/
 .main-title-nos{
-    text-align: start;
+    text-align: center;
     font-family: var(--fontOne);
     font-size: 3rem;
     color: var(--colorSix);
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-} 
+    margin-top: 10%;
+}  
 
-/* DESCRIPCION */
+                        /***********
+                        DESCRIPCION 
+                        ***********/
 .row-cols-lg-4 >*{
     flex: 0 0 auto;
     width: 65%;
@@ -49,6 +55,8 @@ p{
     font-size:  22px;
     font-style: normal;
     line-height: 33px;
+    
+    
 }
 
 .objetivo{
@@ -61,7 +69,6 @@ p{
     text-align: center;
     padding: 2%;
 }
-
 .objetivo p{
     color: #43BEC7;;
     font-style: normal;
@@ -69,7 +76,9 @@ p{
     padding: 0;
 }
 
-/* VALORES */
+                        /***********
+                        DESCRIPCION 
+                        ***********/
 .valores{
     position: absolute;
     margin: 20% 0;
@@ -99,8 +108,8 @@ p{
     text-align: center;
     color: #A9D156;
 }
-
-.valores p {
+.valores p
+{
 height: 216px;
 font-size: 18px;
 line-height: 27px;
@@ -113,7 +122,10 @@ color: #000000;
     margin-top: 45%;
 }
 
-/* CLIENTES */
+                        /***********
+                          CLIENTES
+                        ***********/
+
 .clientes{
     position: relative;
     margin-top: 5%;
@@ -127,124 +139,180 @@ color: #000000;
 .row{
     flex-wrap: nowrap;
 }
-
 .clientes .title{
     font-family: mama-papa;
     color: #A9D156;
     text-align: center;
 }
-
 .clientes .col{
+    
     height: 45%;
 }
-
 .row-cols-lg-4 > * {
     width: 33%;
 }
-
 .cliente-cards{
+    
     margin: 20% 17%;
     box-shadow: 4px 4px 6px 4px #E5E4EC;
     border-radius: 20px;
     width: 70%;
-}
+    height: 321px;
 
+}
 .calificacion{
     display: flex;
     margin-left: 15px;
 }
-
 .estrellas{
     max-width: 23px;
     margin: 15px 10px 0px 5px
 }
-
 .calificacion-num{
+   
     margin-top: 1px;position: absolute;
     margin-left: 60%;
     margin-top: -26px;
+    
 }
 
+.card-body .comentarios {
+    padding-left:  1%;
+    padding-right: 3%;
+    font-family: Poppins;
+    font-weight: 400;
+    color: #504C65;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 33px;
+    margin-top: 5%;
+}
 .comentarios{
     font-size: 18px;   
     color: #343049;
 }
-
 .card-cliente{
     font-size: 16px;
     color: #807C97;
-    margin: 0;
+    margin-top: 35%;
     padding: 0;
 }
 
+
 /* MEDIA QUERIES */
 
-@media (max-width: 768px){
-    /*NAV BAR */
+
+@media (min-width: 1440px){
+    .banner-conocenos{
+        /* background: url('../assets/img/Hero-2.png') no-repeat; */
+        max-width: 100%;
+        background-size: 100% 100%;
+        
+        
+    }    
+}
+
+
+@media (max-width: 1200px){
+    .banner-conocenos{
+        background: url('../assets/img/Hero.png') no-repeat;
+    }
+} 
+@media (max-width: 992px){
     .banner-conocenos{
         max-width: 100%;
-        height: 320px;
+        height: 400px;
         background-size: 100% 100%;
     }
+} 
+
+/* 
+
+.banner-conocenos{
+    max-width: 100%;
+    height: 320px;
+    background-size: 100% 100%;
+} */
+@media (max-width: 769px){
     
-    .title-nos{
-        float: none;
-    width: 100%;
-    padding-left: 32%;
-    padding-top: 0;
-    }
-    .main-title-nos{
-        font-size: 30px;
-        width: 30%;
-        text-align: center;
-    }
-    /* VALORES */
-    .valores{
-        position: relative;
-        margin: 80% 0;
-    }
-    .valores .calidad{
-        position: relative;
-        width: 100%;
-        float: none;
-        text-align: center;
-    }
-    .valores .confianza {
-        position: relative;
-        width: 100%;
-        float: none;
-        text-align: center;
-        margin-top: 35%;
-    }
-    .objetivo{
-        margin-top: 70%;
-        width: 375px;
-        top: 120%;
-        left: 10%;
-    }
-    .fin-valores{
-        width: 95%;
-        margin-left: 2%;
-    }
-    .img-valores{
-        max-width: 36%;
-    }
-    /* CLIENTES*/
-    .clientes {
-        margin-top: 10%;
-    }
-    .row {
-        flex-wrap: wrap;
-        display: flex;
-    }
-    .cliente-cards{
-        width: 100%;
-        margin-left: 30%;
-    }
-    .row-cols-lg-4 > * {
-        width: 70%;
-    }
-    .calificacion-num {
-        margin-left: 75%;    
-    }
+.title-nos{
+    float: none;
+width: 100%;
+padding-left: 32%;
+padding-top: 0;
 }
+.main-title-nos{
+    font-size: 30px;
+    width: 30%;
+    text-align: center;
+}
+    
+            /***********
+            VALORES
+            ************/
+.valores{
+    position: relative;
+    margin: 80% 0;
+}
+.valores .calidad{
+    position: relative;
+    width: 100%;
+    float: none;
+    text-align: center;
+}
+.valores .confianza {
+    position: relative;
+    width: 100%;
+    float: none;
+    text-align: center;
+    margin-top: 35%;
+}
+.objetivo{
+    margin-top: 70%;
+    width: 320px;
+    top: 120%;
+    left: 10%;
+}
+.objetivo p {
+    margin-top: 80%;
+}
+.fin-valores{
+    /* position: relative;
+    margin: 0;
+    margin-left: 0px; */
+    width: 95%;
+    margin-left: 2%;
+}
+.img-valores{
+    max-width: 36%;
+}
+
+                    /***********
+                      VALORES
+                    ************/
+.clientes {
+    margin-top: 10%;
+}
+
+.row {
+    flex-wrap: wrap;
+    display: flex;
+}
+.cliente-cards{
+    width: 100%;
+    margin-left: 30%;
+}
+
+                    /**********
+                      CLIENTES
+                    **********/
+.row-cols-lg-4 > * {
+    width: 70%;
+}
+
+.calificacion-num {
+    margin-left: 75%;
+    
+}
+}
+
