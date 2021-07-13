@@ -38,4 +38,22 @@
         height: 320px;
         background-size: 100% 100%;
     }
+    .main-title-dogs{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 576px){
+    .banner-dogs{
+        height: 250px;
+    }
+}
+
+@media (max-width: 480px){
+    .banner-dogs{
+        height: 202px;
+    }
+    .main-title-dogs{
+        font-size: 1.5rem;
+    }
 }

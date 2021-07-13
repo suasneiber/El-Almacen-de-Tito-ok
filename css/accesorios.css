@@ -71,7 +71,11 @@
 }
 
 .accesories-btn:hover{
-    background-color: #2c8b92;
+    background-color: #BBE9E3;
+}
+
+.accesories-btn:active{
+    background-color: #4D5680;
 }
 
 @media (min-width: 1440px){
@@ -100,6 +104,9 @@
         height: 320px;
         background-size: 100% 100%;
     }
+    .main-title-accesories{
+        font-size: 2rem;
+    }
     .accesories-first-title{
         font-size: 1.5rem;
     }
@@ -112,5 +119,20 @@
         padding: 0.5rem 2rem;
         border-radius: 60px;
         border: none;
+    }
+}
+
+@media (max-width: 576px){
+    .banner-accesories{
+        height: 250px;
+    }
+}
+
+@media (max-width: 480px){
+    .banner-accesories{
+        height: 202px;
+    }
+    .main-title-accesories{
+        font-size: 1.5rem;
     }
 }

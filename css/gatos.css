@@ -38,4 +38,22 @@
         height: 320px;
         background-size: 100% 100%;
     }
+    .main-title-cats{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 576px){
+    .banner-cats{
+        height: 250px;
+    }
+}
+
+@media (max-width: 480px){
+    .banner-cats{
+        height: 202px;
+    }
+    .main-title-cats{
+        font-size: 1.5rem;
+    }
 }

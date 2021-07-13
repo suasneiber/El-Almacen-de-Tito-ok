@@ -160,6 +160,9 @@ div .col .locations-img{
         height: 320px;
         background-size: 100% 100%;
     }
+    .main-title-shop{
+        font-size: 2rem;
+    }
     /* SHOP */
     .shop-container{
         flex-direction: column;
@@ -190,6 +193,9 @@ div .col .locations-img{
 }
 
 @media (max-width: 576px){
+    .banner-shop{
+        height: 250px;
+    }
     /* DIVIDER */
     .huellita{
         width: 60px;
@@ -198,6 +204,12 @@ div .col .locations-img{
 }
 
 @media (max-width: 480px){
+    .banner-shop{
+        height: 202px;
+    }
+    .main-title-shop{
+        font-size: 1.5rem;
+    }
     /* SHOP */
     .shop-icons{
         padding: 0 1rem;
