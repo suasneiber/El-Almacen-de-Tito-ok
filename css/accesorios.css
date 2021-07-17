@@ -136,3 +136,18 @@
         font-size: 1.5rem;
     }
 }
+
+@media (max-width: 320px){
+    .banner-accesories{
+        height: 150px;
+    }
+    .main-title-accesories{
+        font-size: 1rem;
+    }
+    .accesories-cards, .accesories-images, .accesories-card-body{
+        width: 100%;
+    }
+    .accesories-images{
+        height: 100%;
+    }
+}

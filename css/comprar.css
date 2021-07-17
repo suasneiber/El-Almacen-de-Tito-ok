@@ -149,8 +149,16 @@ div .col .locations-img{
         height: 400px;
         background-size: 100% 100%;
     }
+    .shop-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .shop-title, .shop-text{
         text-align: center;
+    }
+    .shop-steps{
+        margin-bottom: 2rem;
     }
 }
 
@@ -239,5 +247,14 @@ div .col .locations-img{
     }
     .delivery-text{
         font-size: .75rem;
+    }
+}
+
+@media (max-width: 320px){
+    .banner-shop{
+        height: 150px;
+    }
+    .main-title-shop{
+        font-size: 1rem;
     }
 }
