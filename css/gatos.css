@@ -12,6 +12,23 @@
     margin-top: 10%;
 }
 
+.products-cat-title{
+    font-family: var(--fontOne);
+    font-size: 2rem;
+    color: var(--colorOne);
+    text-align: center;
+    margin: 1rem 0;
+    padding: 1rem 0;
+}
+
+.products-cat-text{
+    font-family: var(--fontTwo);
+    font-size: 1rem;
+    color: #807C97;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
 @media (min-width: 1440px){
     .banner-cats{
         background-size: 100% 100%;
