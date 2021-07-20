@@ -164,9 +164,9 @@ div .col .locations-img{
 
 @media (max-width: 768px){
     .banner-shop{
+        background: url('../assets/img/banners-mobile-04.png') no-repeat;
         max-width: 100%;
-        height: 320px;
-        background-size: 100% 100%;
+        background-size: contain;
     }
     .main-title-shop{
         font-size: 2rem;

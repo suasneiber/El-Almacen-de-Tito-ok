@@ -51,9 +51,9 @@
 
 @media (max-width: 768px){
     .banner-cats{
+        background: url('../assets/img/banners-mobile-02.png') no-repeat;
         max-width: 100%;
-        height: 320px;
-        background-size: 100% 100%;
+        background-size: contain;
     }
     .main-title-cats{
         font-size: 2rem;
