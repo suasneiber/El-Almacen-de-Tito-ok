@@ -23,7 +23,7 @@
 
 .products-cat-text{
     font-family: var(--fontTwo);
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: #807C97;
     text-align: center;
     margin-bottom: 3rem;
@@ -63,6 +63,12 @@
 @media (max-width: 576px){
     .banner-cats{
         height: 250px;
+    }
+    .products-cat-title{
+        font-size: 1.25rem;
+    }
+    .products-cat-text{
+        font-size: 1rem;
     }
 }
 

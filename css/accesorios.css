@@ -126,6 +126,9 @@
     .banner-accesories{
         height: 250px;
     }
+    .accesories-first-title, .accesories-second-title{
+        font-size: 1.25rem;
+    }
 }
 
 @media (max-width: 480px){
