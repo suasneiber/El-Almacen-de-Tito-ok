@@ -18,6 +18,7 @@
     font-size: 2rem;
     color: var(--colorThree);
     margin: 2rem 0;
+    line-height: 3rem;
 }
 
 .accesories-section{
@@ -57,13 +58,14 @@
     font-family: var(--fontOne);
     font-size: 1.5rem;
     color: var(--colorOne);
+    line-height: 3rem;
 }
 
 .accesories-btn{
     color: var(--colorSix);
     font-family: var(--fontTwo);
     background-color: var(--colorTwo);
-    font-size: .75rem;
+    font-size: 1.1rem;
     margin: 1rem 0;
     padding: 0.5rem 2rem;
     border-radius: 60px;
@@ -104,30 +106,14 @@
         max-width: 100%;
         background-size: contain;
     }
-    .main-title-accesories{
-        font-size: 2rem;
-    }
-    .accesories-first-title{
-        font-size: 1.5rem;
-    }
     .accesories-second-title{
-        font-size: 1rem;
-    }
-    .accesories-btn{
-        font-size: .75rem;
-        margin: 1rem 0;
-        padding: 0.5rem 2rem;
-        border-radius: 60px;
-        border: none;
+        font-size: 1.5rem;
     }
 }
 
 @media (max-width: 576px){
     .banner-accesories{
         height: 250px;
-    }
-    .accesories-first-title, .accesories-second-title{
-        font-size: 1.25rem;
     }
 }
 
@@ -136,7 +122,10 @@
         height: 202px;
     }
     .main-title-accesories{
-        font-size: 1.5rem;
+        font-size: 2rem;
+    }
+    .accesories-first-title, .accesories-second-title{
+        font-size: 1.375rem;
     }
 }
 

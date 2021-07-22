@@ -29,6 +29,13 @@
     margin-bottom: 3rem;
 }
 
+.products-dogs{
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 4px 4px 6px 4px #E5E4EC;
+    border-radius: 20px;
+}
+
 @media (min-width: 1440px){
     .banner-dogs{
         background-size: 100% 100%;
@@ -55,8 +62,9 @@
         max-width: 100%;
         background-size: contain;
     }
-    .main-title-dogs{
-        font-size: 2rem;
+    .products-dogs{
+        width: 90%;
+        margin: 0 auto;
     }
 }
 
@@ -69,6 +77,9 @@
     }
     .products-dog-text{
         font-size: 1rem;
+    }
+    .products-dogs{
+        width: 80%;
     }
 }
 
