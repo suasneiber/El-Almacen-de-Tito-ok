@@ -647,7 +647,31 @@ footer{
         margin-left: -30%;
     }
 }
-
+@media (max-width: 489px){
+    .main-titleTwo {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .main-logo {    
+        width: 200px;
+        margin-left: 0%;
+    }
+}
+@media (max-width: 398px){
+    .main-titleTwo {
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 355px){
+    .main-titleTwo {
+        font-size: 1.1rem;
+    }
+}
+@media (max-width: 319px){
+    .main-titleTwo {
+        font-size: 1rem;
+    }
+}
 @media (max-width: 480px){
     /* PAYMENTS */
     .payments-icons{
