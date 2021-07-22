@@ -40,7 +40,7 @@
 }
 
 .nosotros{
-    margin-left: 10%;
+    margin-left: 5%;
 }
 
 .justify-content-center {
@@ -63,7 +63,7 @@ p{
     text-align: center;
     position: absolute;
     width: 790px;
-    left: 285px;  
+    
     font-size: 24px;
     line-height: 45px;
     text-align: center;
@@ -212,10 +212,22 @@ color: #000000;
     }    
 }
 
-
+@media (max-width: 1439px){
+    .objetivo{
+        margin-left: 20%;
+    }
+}
+/* @media (max-width: 1143px){
+    .objetivo{
+        margin-left: 15%;
+    }
+} */
 @media (max-width: 1200px){
     .banner-conocenos{
         background: url('../assets/img/Hero.png') no-repeat;
+    }
+    .objetivo{
+        margin-left: 12%;
     }
 } 
 @media (max-width: 992px){
@@ -224,8 +236,21 @@ color: #000000;
         height: 400px;
         background-size: 100% 100%;
     }
+    .objetivo{
+        margin-left: 10%;
+    }
 } 
 
+@media (max-width: 920px){
+    .objetivo{
+        margin-left: 5%;
+    }
+}
+@media (max-width: 832px){
+    .objetivo{
+        margin-left: 0%;
+    }
+}
 /* 
 
 .banner-conocenos{
@@ -252,7 +277,7 @@ padding-top: 0;
             ************/
 .valores{
     position: relative;
-    margin: 80% 0;
+    margin: 45% 0;
 }
 .valores .calidad{
     position: relative;
@@ -268,13 +293,13 @@ padding-top: 0;
     margin-top: 35%;
 }
 .objetivo{
-    margin-top: 70%;
-    width: 320px;
+    margin-top: 0%;
+    width: 100%;
     top: 120%;
-    left: 10%;
+    left: 0%;
 }
 .objetivo p {
-    margin-top: 80%;
+    margin-top: 0%;
 }
 .fin-valores{
     /* position: relative;
@@ -316,3 +341,89 @@ padding-top: 0;
 }
 }
 
+@media (max-width: 637px){
+    .objetivo{
+        margin-top: 15%;
+    }
+}
+
+
+@media (max-width: 575px){
+    .objetivo{
+        margin-top: 5%;
+        padding-top: 20%;
+    }
+}
+@media (max-width: 475px){
+    .objetivo{
+       margin-top: 25%;
+    }
+}
+@media (max-width: 447px){
+    .objetivo{
+        margin-top: 45%;
+    }
+    .valores{
+        margin-top: 70%;
+    }
+    .fin-valores{
+        margin-top: 0;
+    }
+}
+@media (max-width: 420px){
+    .objetivo{
+        margin-top: 45%;
+        padding-top: 30%;
+    }
+}
+@media (max-width: 409px){
+    .objetivo{
+        margin-top: 45%;
+        padding-top: 40%;
+    }
+}
+@media (max-width: 372px){
+    
+    .nosotros p{
+        padding: 0;
+    }
+    .objetivo{
+        width: 93%;
+        left: 5%;
+        margin-top: 20%;
+    }
+    .objetivo p {
+        margin-top: 75%;
+    }
+
+    .valores{
+        margin-top: 100%;
+        padding: 0;
+    }
+    .fin-valores{
+        width: 96%;
+        margin-left: 4%;
+    }
+    .img-valores{
+        max-width: 30%;
+    }
+
+    .cliente-cards {
+     
+        margin-left: 8%;
+    }
+    .calificacion {
+        margin-left: 5%;
+    }
+    .row-cols-lg-4 > * {
+        width: 90%;
+    }
+}
+
+@media (max-width: 287px) {
+    .objetivo {
+        width: 100%;
+        left: 0%;
+        margin-top: 42%;
+    }
+}
