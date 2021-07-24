@@ -28,6 +28,7 @@
     font-family: var(--fontOne);
     font-size: 2rem;
     color: var(--colorOne);
+    line-height: 4rem;
 }
 
 .shop-text{
@@ -141,6 +142,9 @@ div .col .locations-img{
 @media (min-width: 992px){
     .banner-shop{
         height: 650px;
+    }
+    .shop-container{
+        padding: 1rem;
     }
 }
 
