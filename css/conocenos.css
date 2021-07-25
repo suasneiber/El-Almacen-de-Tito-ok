@@ -1,24 +1,15 @@
 /*NAV BAR */
 .banner-conocenos{
-    background: url('../assets/img/Hero-2.png') no-repeat;
-    height: 650px;
+    background: url('../assets/img/hero-about.png') no-repeat;
+    height: 750px;
     max-width: 100%;
     width: 100%;
+    background-size: 100% 100%;
 }
 
 
 /* HEADER */
-/* header-nos{
-    position:relative;    
-}
-.title-nos{
-    position: relative;
-    width: 20%;
-    float: right;
-    padding-top: 12%;
-    margin-right: 36%
-}
-*/
+
 .main-title-nos{
     text-align: center;
     font-family: var(--fontOne);
@@ -41,6 +32,7 @@
 
 .nosotros{
     margin-left: 5%;
+    text-align: center;
 }
 
 .justify-content-center {
@@ -67,7 +59,7 @@ p{
     font-size: 24px;
     line-height: 45px;
     text-align: center;
-    padding: 2%;
+    /* padding: 2%; */
 }
 .objetivo p{
     color: #43BEC7;;
@@ -114,11 +106,12 @@ height: 216px;
 font-size: 18px;
 line-height: 27px;
 color: #000000;
+
 }
 
 .fin-valores{
     position: relative;
-    margin-left: 28%;
+    /* margin-left: 28%; */
     margin-top: 45%;
 }
 
@@ -224,31 +217,92 @@ color: #000000;
 } */
 @media (max-width: 1200px){
     .banner-conocenos{
-        background: url('../assets/img/Hero.png') no-repeat;
+        background: url('../assets/img/hero-about.png') no-repeat;
+        background-size: 100% 100%;
     }
-    .objetivo{
-        margin-left: 12%;
+    .objetivo {
+        margin-left: 16%;
     }
 } 
+
+/* @media (max-width: 1175px){
+    .objetivo {
+        margin-left: 17%;
+    }
+}
+@media (max-width: 1125px){
+    .objetivo {
+        margin-left: 14%;
+    }
+} */
+@media (max-width: 1100px){
+    .objetivo {
+        margin-left: 13%;
+    }
+}
+@media (max-width: 1040px){
+    .objetivo {
+        margin-left: 12%;
+    }
+}
 @media (max-width: 992px){
     .banner-conocenos{
         max-width: 100%;
-        height: 400px;
+        height: 600px;
         background-size: 100% 100%;
     }
     .objetivo{
-        margin-left: 10%;
+        margin-left: 9%;
+    }
+    .fin-valores{
+        margin-top: 55%;
     }
 } 
 
 @media (max-width: 920px){
+    .fin-valores{
+        margin-top: 65%;
+    }
     .objetivo{
-        margin-left: 5%;
+        margin-left: 6%;
+    }
+
+    .cliente-cards {
+        margin: 20% 10%;
+        width: 90%;
+    }
+    .calificacion-num {
+        margin-left: 75%!important;
     }
 }
+
+@media (max-width: 870px){
+    .objetivo{
+        margin-left: 3%;
+    }
+
+}
+
+/* @media (max-width: 832px){
+    .objetivo{
+        margin-left: 2%;
+    }
+} */
 @media (max-width: 832px){
     .objetivo{
-        margin-left: 0%;
+        margin-left: 10%;
+        width: 80%; 
+    }
+    .cliente-cards {
+        margin: 20% 6%;
+        width: 96%;
+
+    }
+    .estrellas {
+        margin: 15px 5px 0px 5px;
+    }
+    .calificacion-num {
+        margin-left: 68%!important;
     }
 }
 /* 
@@ -259,128 +313,207 @@ color: #000000;
     background-size: 100% 100%;
 } */
 @media (max-width: 769px){
+    .banner-conocenos{
+        background: url('../assets/img/banners-mobile-05.png') no-repeat;
+        background-size: 100% 100%;
+        height: 350px;
+    }
+    .title-nos{
+        float: none;
+        width: 100%;
+        padding-left: 32%;
+        padding-top: 0;
+    }
+    .main-title-nos{
+        font-size: 48px;
+        width: 30%;
+        text-align: center;
+        margin-top: 19%;
+    }
     
-.title-nos{
-    float: none;
-width: 100%;
-padding-left: 32%;
-padding-top: 0;
-}
-.main-title-nos{
-    font-size: 30px;
-    width: 30%;
-    text-align: center;
-}
-    
+    .nosotros{
+        margin-top:15%;
+        padding: 0 3% 0 3%;
+    }
             /***********
             VALORES
             ************/
-.valores{
-    position: relative;
-    margin: 45% 0;
-}
-.valores .calidad{
-    position: relative;
-    width: 100%;
-    float: none;
-    text-align: center;
-}
-.valores .confianza {
-    position: relative;
-    width: 100%;
-    float: none;
-    text-align: center;
-    margin-top: 35%;
-}
-.objetivo{
-    margin-top: 0%;
-    width: 100%;
-    top: 120%;
-    left: 0%;
-}
-.objetivo p {
-    margin-top: 0%;
-}
-.fin-valores{
-    /* position: relative;
-    margin: 0;
-    margin-left: 0px; */
-    width: 95%;
-    margin-left: 2%;
-}
-.img-valores{
-    max-width: 36%;
-}
+    .valores{
+        position: relative;
+        margin: 45% 0;
+    }
+    .valores .calidad{
+        position: relative;
+        width: 100%;
+        float: right;
+        text-align: center;
+    }
+    .valores .confianza {
+        position: relative;
+        width: 100%;
+        float: right;
+        text-align: center;
+        margin-top: 10%;
+    }
+    .objetivo{
+        margin-top: 0%;
+        width: 80%;
+        /* top: 120%; */
+        margin-left: 9%;
+    }
+    .objetivo p {
+        margin-top: 10%;
+    }
+    /* .fin-valores{
+        /* position: relative;
+        margin: 0;
+        /* margin-left: 0px; */
+        /*width: 95%;
+        margin-left: 2%; 
+    } */
+    .img-valores{
+        max-width: 36%;
+    }
+
 
                     /***********
                       VALORES
                     ************/
-.clientes {
-    margin-top: 10%;
-}
+    .clientes {
+        margin-top: 10%;
+    }
 
-.row {
-    flex-wrap: wrap;
-    display: flex;
-}
-.cliente-cards{
-    width: 100%;
-    margin-left: 30%;
-}
+    .row {
+        flex-wrap: wrap;
+        display: flex;
+    }
+    .cliente-cards {
+        width: 100%;
+        margin-left: 3%;
+        margin-right: 0;
+    }
+    .row-cols-lg-4 > * {
+        width: 33%;
+    }
+    .calificacion-num {
+        margin-left: 75%!important;
+    }
 
                     /**********
                       CLIENTES
                     **********/
-.row-cols-lg-4 > * {
-    width: 70%;
+.estrellas {
+    max-width: 23px;
+    margin: 15px 10px 0px 0px;
 }
 
 .calificacion-num {
     margin-left: 75%;
     
 }
+.footer-whatsapp-container {
+    margin-left: -15%!important;
+}
 }
 
 @media (max-width: 637px){
-    .objetivo{
-        margin-top: 15%;
+    .objetivo p{
+        margin-top: 5%;
+        /* top: 110% */
     }
+}
+@media (max-width: 655px){
+    .estrellas {
+        max-width: 21px;
+        margin: 15px 5px 0px 0px;
+    }
+}
+.calificacion-num {
+    margin-left: 50%;
 }
 
 
 @media (max-width: 575px){
     .objetivo{
-        margin-top: 5%;
-        padding-top: 20%;
+        margin-top: 0%;
+        padding-top: 0%;
     }
+    .row-cols-lg-4 > * {
+        width: 70%;
+        margin-left: 16%;
+        
+    }
+    .clientes div .col{
+        width: 60%;
+        margin-left: 20%;
+    }
+    /* .valores{
+        margin-top: 10%;
+    } */
 }
 @media (max-width: 475px){
-    .objetivo{
-       margin-top: 25%;
+    .title-nos{
+        padding-left: 25%;
     }
+    .objetivo{
+       margin-top: 0%;
+    }
+    /* .valores .calidad{
+        margin-top: 72%;
+    } */
 }
 @media (max-width: 447px){
-    .objetivo{
+    /* .objetivo{
         margin-top: 45%;
-    }
+    } */
     .valores{
         margin-top: 70%;
     }
-    .fin-valores{
-        margin-top: 0;
+    .clientes div .col {
+        width: 70%;
+        margin-left: 15%;
     }
+    
+    /* .fin-valores{
+        margin-top: 0;
+    } */
 }
 @media (max-width: 420px){
-    .objetivo{
+    .banner-conocenos{
+        height: 250px;
+    }
+    .main-title-nos{
+        font-size: 24px;
+        margin-top: 26%;
+    }
+    .title-nos{
+        padding-left: 33%;
+    }
+    .clientes div .col {
+        width: 75%;
+        margin-left: 12%;
+    }
+    /* .objetivo{
         margin-top: 45%;
         padding-top: 30%;
-    }
+    } */
 }
 @media (max-width: 409px){
-    .objetivo{
+    /* .banner-conocenos{
+        height: 250px;
+    }
+    .main-title-nos{
+        font-size: 24px;
+        margin-top: 26%;
+    }
+
+    .title-nos{
+        padding-left: 33%;
+    } */
+    /* .objetivo{
         margin-top: 45%;
         padding-top: 40%;
-    }
+    } */
 }
 @media (max-width: 372px){
     
@@ -388,29 +521,44 @@ padding-top: 0;
         padding: 0;
     }
     .objetivo{
-        width: 93%;
-        left: 5%;
-        margin-top: 20%;
+        width: 80%;
+        left: 0%;
+        margin-top: 0%;
+        padding-top: 0;
     }
-    .objetivo p {
-        margin-top: 75%;
-    }
+    /* .objetivo p {
+        margin-top: 45%;
+    } */
 
     .valores{
         margin-top: 100%;
-        padding: 0;
+        padding: 10% 0;
+    }
+    .valores .confianza {
+        float: right;
+    }
+    .valores .calidad {
+        float: right;
     }
     .fin-valores{
-        width: 96%;
-        margin-left: 4%;
+        /* width: 96%;
+        margin-left: 4%; */
+        justify-content: center !important;
+        width: 100%;
     }
     .img-valores{
         max-width: 30%;
     }
 
+    .clientes .title{
+        margin-left: 0 !important;
+    }
     .cliente-cards {
+        margin-left: 0%;
      
-        margin-left: 8%;
+    }
+    .clientes .col {
+        margin-left: 6%;
     }
     .calificacion {
         margin-left: 5%;
@@ -418,12 +566,35 @@ padding-top: 0;
     .row-cols-lg-4 > * {
         width: 90%;
     }
+    .clientes div .col {
+        width: 85%;
+        margin-left: 10%;
+    }
+    .calificacion-num {
+        margin-left: 50%;
+    }
 }
+
 
 @media (max-width: 287px) {
     .objetivo {
-        width: 100%;
+        width: 85%;
         left: 0%;
-        margin-top: 42%;
+        margin-top: 0%;
+    }
+    .objetivo p {
+        margin-top: 0%;
+    }
+    .valores {
+        padding: 55% 0;
+    }
+    .valores .confianza {
+        margin-top: 25%;
+    }
+    .calificacion {
+        margin-left: 7%;
+    }
+    .estrellas {
+        margin: 15px 6px 0px 0px;
     }
 }
