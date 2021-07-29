@@ -155,8 +155,9 @@ header{
 
 .products-title{
     font-family: var(--fontOne);
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: var(--colorOne);
+    text-align: center;
 }
 
 .products-buttonOne{
@@ -242,12 +243,7 @@ header{
 }
 .shopAndUs-card{
     border: none;
-    margin: 1rem;
-}
-
-.shopAndUs-img{
-    width: 200%;
-    height: 100%;
+    margin: 1rem auto;
 }
 
 .shopAndUs-titleOne{
@@ -259,7 +255,7 @@ header{
 
 .shopAndUs-text{
     font-family: var(--fontTwo);
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
 .shopAndUs-button{
@@ -267,8 +263,7 @@ header{
     font-family: var(--fontTwo);
     background-color: var(--colorSix);
     font-size: .75rem;
-    margin: 1rem;
-    padding: 0.5rem 2rem;
+    width: 70%;
     border-radius: 60px;
     border: 1px solid var(--colorTwo);
 }
@@ -302,12 +297,14 @@ footer{
 .footer-logo-container{
     margin: 10% 5% 0 0%;
 }
+
 .box-social{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-right: 15%;
 }
+
 .footer-links{
     text-decoration: none;
     font-family: var(--fontTwo);
@@ -352,51 +349,18 @@ footer{
         height: 320px;
         background-size: 100% 100%;
     }
-                /*******
-                FOOTER 
-                *******/
+    /* FOOTER */
     .footer-social-container {
         margin: 0 1rem 1rem 0;
     }
 }
 
 @media (max-width: 1085px){
-    .header-dots{
-        /* display: none; */
-    }
-    /* .titleOne{
-        padding-top: 0;
-    }
-    .main-titleOne{
-        margin-top: 0%;
-    } */
     .header-container-logo{
         padding-left: 0;
         margin-top: 12%;
     }
 }
-
-/* @media (max-width: 915px){
-    .banner {
-        height: 550px!important;
-    }
-    .titleOne {
-        width: 60%;
-        padding-top: 20%;
-    }
-    .main-titleOne{
-        margin-top: 0%;  
-        font-size: 2.2rem; 
-    }
-    .header-container-logo {
-        padding-left: 5%;
-        margin-top: 5%;
-    }
-    .main-logo {
-        width: 250px;
-        height: 250px;
-    }
-} */
 
 @media (min-width: 992px){
     /*NAV BAR */
@@ -484,8 +448,20 @@ footer{
     /* PAYMENTS */
     .payments-container{
         width: 100%;
-    } 
+    }
+    .shopAndUs-titleOne{
+        font-size: 1.25rem;
+    }
+    .shopAndUs-text{
+        font-size: 14px;
+    }
 }
+@media (max-width: 991px){
+    .products-buttonOne{
+        display: none;
+    }
+}
+
 @media (max-width: 823px){
     .title-one{
         margin-right: 0px;
@@ -551,9 +527,6 @@ footer{
         border-bottom: 1px solid var(--colorSix);
     }
     /* HEADER */
-    /* .titleOne, .header-dots, .main-titleOne{
-        display: none;
-    } */
     .header-container-logo{
         padding: 0;
     }
@@ -566,11 +539,6 @@ footer{
     }
     .titleTwo{
         display: none;
-        /*padding-top: 0;
-        position: sticky;
-        top: 130px;
-        right: 70px;
-        padding-bottom: 1rem; */
     }
     .main-titleTwo{
         font-size: 2.2rem;
@@ -596,9 +564,6 @@ footer{
         justify-content: center;
         align-items: center;
     }
-
-    
-
     .payments-title{
         margin-bottom: 2rem;
     }
@@ -610,9 +575,6 @@ footer{
     }
 
     /* PRODUCTS */
-    .products-buttonOne{
-        display: none;
-    }
     .products-buttonTwo{
         color: var(--colorSix);
         font-family: var(--fontTwo);
@@ -631,8 +593,8 @@ footer{
         background-color: #4D5680;
     }
     .products-cards{
-        width: 60%;
-        margin-left: 18%;
+        width: 100%;
+        margin: 1rem auto;
     }
 
     /* ACCESORIES */
@@ -649,9 +611,6 @@ footer{
     .shopAndUs{
         margin-bottom: 5rem;
     }
-    .shopAndUs-titleOne{
-        display: none;
-    }
     .shopAndUs-titleTwo{
         color: var(--colorOne);
         font-family: var(--fontOne);
@@ -660,12 +619,12 @@ footer{
         text-align: center;
     }
     .shopAndUs-text{
-        padding: 0 2rem;
+        font-size: 1rem;
     }
     .shopAndUs-button{
         font-size: 1rem;
         font-weight: 600;
-        padding: 1rem 5rem;
+        width: 100%;
     }
     .shopAndUs-center{
         display: flex;
@@ -675,7 +634,6 @@ footer{
     }
 
     /* FOOTER */
-    
     footer{
         height: 100%;
     }
@@ -706,7 +664,11 @@ footer{
     }
     .footer-whatsapp-container{
         margin: 0;
-        /* margin-left: -15% !important; */
+    }
+}
+@media (max-width: 767px){
+    .shopAndUs-titleOne{
+        display: none;
     }
 }
 
@@ -766,7 +728,6 @@ footer{
         margin-left: -20%;
     }
 }
-
 
 @media (max-width: 490px){
     .banner {

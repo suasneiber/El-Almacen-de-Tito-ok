@@ -7,9 +7,7 @@
     background-size: 100% 100%;
 }
 
-
 /* HEADER */
-
 .main-title-nos{
     text-align: center;
     font-family: var(--fontOne);
@@ -19,9 +17,7 @@
     margin-top: 10%;
 }  
 
-                        /***********
-                        DESCRIPCION 
-                        ***********/
+/* DESCRIPCION */
 .row-cols-lg-4 >*{
     flex: 0 0 auto;
     width: 65%;
@@ -39,6 +35,7 @@
     justify-content: center !important;
     width: 100%;
 }
+
 p{
     padding: 0% 10% 0% 10%;
     font-family: Poppins;
@@ -47,8 +44,6 @@ p{
     font-size:  22px;
     font-style: normal;
     line-height: 33px;
-    
-    
 }
 
 .objetivo{
@@ -59,8 +54,8 @@ p{
     font-size: 24px;
     line-height: 45px;
     text-align: center;
-    /* padding: 2%; */
 }
+
 .objetivo p{
     color: #43BEC7;;
     font-style: normal;
@@ -68,9 +63,7 @@ p{
     padding: 0;
 }
 
-                        /***********
-                        DESCRIPCION 
-                        ***********/
+/* DESCRIPCION */
 .valores{
     position: absolute;
     margin: 20% 0;
@@ -106,7 +99,6 @@ height: 216px;
 font-size: 18px;
 line-height: 27px;
 color: #000000;
-
 }
 
 .fin-valores{
@@ -115,9 +107,7 @@ color: #000000;
     margin-top: 45%;
 }
 
-                        /***********
-                          CLIENTES
-                        ***********/
+/* CLIENTES */
 
 .clientes{
     position: relative;
@@ -132,6 +122,7 @@ color: #000000;
 .row{
     flex-wrap: nowrap;
 }
+
 .clientes .title{
     font-family: mama-papa;
     color: #A9D156;
@@ -145,24 +136,24 @@ color: #000000;
     width: 33%;
 }
 .cliente-cards{
-    
     margin: 20% 11%;
     box-shadow: 4px 4px 6px 4px #E5E4EC;
     border-radius: 20px;
     width: 85%;
     height: 321px;
-
 }
+
 .calificacion{
     display: flex;
     margin-left: 15px;
 }
+
 .estrellas{
     max-width: 23px;
     margin: 15px 10px 0px 5px
 }
+
 .calificacion-num{
-   
     margin-top: 1px;position: absolute;
     margin-left: 55%!important;
     margin-top: -26px;
@@ -180,10 +171,12 @@ color: #000000;
     line-height: 33px;
     margin-top: 5%;
 }
+
 .comentarios{
     font-size: 18px;   
     color: #343049;
 }
+
 .card-cliente{
     font-size: 16px;
     color: #807C97;
@@ -191,17 +184,11 @@ color: #000000;
     padding: 0;
 }
 
-
 /* MEDIA QUERIES */
-
-
 @media (min-width: 1440px){
     .banner-conocenos{
-        /* background: url('../assets/img/Hero-2.png') no-repeat; */
         max-width: 100%;
         background-size: 100% 100%;
-        
-        
     }    
 }
 
@@ -210,11 +197,7 @@ color: #000000;
         margin-left: 20%;
     }
 }
-/* @media (max-width: 1143px){
-    .objetivo{
-        margin-left: 15%;
-    }
-} */
+
 @media (max-width: 1200px){
     .banner-conocenos{
         background: url('../assets/img/hero-about.png') no-repeat;
@@ -228,16 +211,6 @@ color: #000000;
     }
 } 
 
-/* @media (max-width: 1175px){
-    .objetivo {
-        margin-left: 17%;
-    }
-}
-@media (max-width: 1125px){
-    .objetivo {
-        margin-left: 14%;
-    }
-} */
 @media (max-width: 1100px){
     .objetivo {
         margin-left: 13%;
@@ -246,11 +219,13 @@ color: #000000;
         margin-left: 65%!important;
     }
 }
+
 @media (max-width: 1040px){
     .objetivo {
         margin-left: 12%;
     }
 }
+
 @media (max-width: 992px){
     .banner-conocenos{
         max-width: 100%;
@@ -289,14 +264,8 @@ color: #000000;
     .objetivo{
         margin-left: 3%;
     }
-
 }
 
-/* @media (max-width: 832px){
-    .objetivo{
-        margin-left: 2%;
-    }
-} */
 @media (max-width: 832px){
     .objetivo{
         margin-left: 10%;
@@ -305,7 +274,6 @@ color: #000000;
     .cliente-cards {
         margin: 20% 6%;
         width: 96%;
-
     }
     .estrellas {
         margin: 15px 5px 0px 5px;
@@ -314,13 +282,7 @@ color: #000000;
         margin-left: 68%!important;
     }
 }
-/* 
 
-.banner-conocenos{
-    max-width: 100%;
-    height: 320px;
-    background-size: 100% 100%;
-} */
 @media (max-width: 769px){
     .banner-conocenos{
         background: url('../assets/img/banners-mobile-05.png') no-repeat;
@@ -344,9 +306,7 @@ color: #000000;
         margin-top:15%;
         padding: 0 3% 0 3%;
     }
-            /***********
-            VALORES
-            ************/
+    /* VALORES */
     .valores{
         position: relative;
         margin: 45% 0;
@@ -367,31 +327,19 @@ color: #000000;
     .objetivo{
         margin-top: 0%;
         width: 80%;
-        /* top: 120%; */
         margin-left: 9%;
     }
     .objetivo p {
         margin-top: 10%;
     }
-    /* .fin-valores{
-        /* position: relative;
-        margin: 0;
-        /* margin-left: 0px; */
-        /*width: 95%;
-        margin-left: 2%; 
-    } */
     .img-valores{
         max-width: 36%;
     }
 
-
-                    /***********
-                      VALORES
-                    ************/
+    /* VALORES */
     .clientes {
         margin-top: 10%;
     }
-
     .row {
         flex-wrap: wrap;
         display: flex;
@@ -408,29 +356,26 @@ color: #000000;
         margin-left: 75%!important;
     }
 
-                    /**********
-                      CLIENTES
-                    **********/
-.estrellas {
-    max-width: 23px;
-    margin: 15px 10px 0px 0px;
-}
-
-.calificacion-num {
-    margin-left: 75%;
-    
-}
-.footer-whatsapp-container {
-    margin-left: -15%!important;
-}
+    /* CLIENTES */
+    .estrellas {
+        max-width: 23px;
+        margin: 15px 10px 0px 0px;
+    }
+    .calificacion-num {
+        margin-left: 75%;
+        
+    }
+    .footer-whatsapp-container {
+        margin-left: -15%!important;
+    }
 }
 
 @media (max-width: 637px){
     .objetivo p{
         margin-top: 5%;
-        /* top: 110% */
     }
 }
+
 @media (max-width: 655px){
     .estrellas {
         max-width: 21px;
@@ -440,7 +385,6 @@ color: #000000;
 .calificacion-num {
     margin-left: 50%;
 }
-
 
 @media (max-width: 575px){
     .objetivo{
@@ -465,16 +409,13 @@ color: #000000;
         padding-left: 25%;
     }
     .objetivo{
-       margin-top: 0%;
+        margin-top: 0%;
     }
     .calificacion-num {
         margin-left: 45%!important;
     }
 }
 @media (max-width: 447px){
-    /* .objetivo{
-        margin-top: 45%;
-    } */
     .valores{
         margin-top: 70%;
     }
@@ -482,11 +423,8 @@ color: #000000;
         width: 70%;
         margin-left: 15%;
     }
-    
-    /* .fin-valores{
-        margin-top: 0;
-    } */
 }
+
 @media (max-width: 420px){
     .banner-conocenos{
         height: 250px;
@@ -502,30 +440,9 @@ color: #000000;
         width: 75%;
         margin-left: 12%;
     }
-    /* .objetivo{
-        margin-top: 45%;
-        padding-top: 30%;
-    } */
 }
-@media (max-width: 409px){
-    /* .banner-conocenos{
-        height: 250px;
-    }
-    .main-title-nos{
-        font-size: 24px;
-        margin-top: 26%;
-    }
 
-    .title-nos{
-        padding-left: 33%;
-    } */
-    /* .objetivo{
-        margin-top: 45%;
-        padding-top: 40%;
-    } */
-}
 @media (max-width: 372px){
-    
     .nosotros p{
         padding: 0;
     }
@@ -535,10 +452,6 @@ color: #000000;
         margin-top: 0%;
         padding-top: 0;
     }
-    /* .objetivo p {
-        margin-top: 45%;
-    } */
-
     .valores{
         margin-top: 100%;
         padding: 10% 0;
@@ -550,21 +463,17 @@ color: #000000;
         float: right;
     }
     .fin-valores{
-        /* width: 96%;
-        margin-left: 4%; */
         justify-content: center !important;
         width: 100%;
     }
     .img-valores{
         max-width: 30%;
     }
-
     .clientes .title{
         margin-left: 0 !important;
     }
     .cliente-cards {
         margin-left: 0%;
-     
     }
     .clientes .col {
         margin-left: 6%;
@@ -583,7 +492,6 @@ color: #000000;
         margin-left: 50%;
     }
 }
-
 
 @media (max-width: 287px) {
     .objetivo {
