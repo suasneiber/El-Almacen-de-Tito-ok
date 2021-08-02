@@ -24,10 +24,11 @@ body{
 /*NAV BAR */
 .banner{
     background: url('../assets/img/banner1.png') no-repeat;
+    background-size: 100% 100%;
 }
 nav.navbar{
     background-color: rgba(106, 106, 106, 0.81);
-    height: 88px;
+    height: 46px;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -92,7 +93,7 @@ header{
 
 .payments-tIcons-container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
 }
 
@@ -219,14 +220,16 @@ header{
     color: var(--colorSix);
     font-family: var(--fontTwo);
     background-color: var(--colorThree);
-    font-size: .75rem;
-    margin: 1rem;
-    padding: 0.5rem 2rem;
+    font-size: 18px;
+    margin: 0rem;
+    padding: 0.7rem 1rem;
     border-radius: 60px;
     border: none;
     position: relative;
     left: 147px;
     top: 270px;
+    width: 208px;
+    height: 54px;
 }
 
 .accesories-button:hover{
@@ -240,6 +243,10 @@ header{
 /* TIPS AND US */
 .shopAndUs{
     margin-bottom: 10rem;
+}
+.img-fluid {
+    max-width: 110%;
+    height: 105%;
 }
 .shopAndUs-card{
     border: none;
@@ -256,6 +263,7 @@ header{
 .shopAndUs-text{
     font-family: var(--fontTwo);
     font-size: 1.1rem;
+    height: 65px;   
 }
 
 .shopAndUs-button{
@@ -266,6 +274,7 @@ header{
     width: 70%;
     border-radius: 60px;
     border: 1px solid var(--colorTwo);
+    font-weight: 600;
 }
 
 .shopAndUs-button:hover{
@@ -278,6 +287,9 @@ header{
     background-color: var(--colorSix);
     color: #807C97;
     border: 1px solid #807C97;
+}
+.card-body {
+    padding: 1rem 0rem;
 }
 
 /* FOOTER */
@@ -331,8 +343,241 @@ footer{
 }
 
 /* MEDIA QUERIES */
+
+@media (min-width: 1901px){
+    .banner{
+        height: 650px;
+    }
+    .titleOne{
+        padding-top: 10% !important;
+    }   
+
+}
+@media (max-width: 1900px){
+    .banner{
+        height: 650px;
+    }
+    .titleOne{
+        padding-top: 10% !important;
+    }
+    
+}
+@media (max-width: 1740px){
+    .banner{
+        height: 600px;
+    }
+    .titleOne{
+        padding-top: 10%!important;
+    }
+    .header-container-logo{
+        margin-top: 7%!important;
+    }
+    
+}
+
+
+
+
+
+
+@media (max-width: 1540px){
+    .banner{
+        height: 500px;
+    }
+    .titleOne{
+        padding-top: 10%!important;
+     }
+}
+@media (min-width: 1440px){
+    .header-container-logo {
+        padding-top: 1%;
+        padding-left: 7%;
+    }
+    .main-logo {
+        width: 416px!important;
+        height: 410px!important;
+    }
+    .titleOne{
+        padding-top: 20%;
+    }
+    .main-titleOne{
+        line-height: 87px;
+        font-size: 40px!important;
+    }
+    .payments-container {
+        flex-direction: row!important;   
+    }
+    .payments-tIcons-container{
+        width: 56%;
+    }
+    .envios {
+        margin-top: 0!important;
+        margin-left: 3%;
+    }
+    .products {
+        padding: 4rem;
+    }
+    .products-buttonOne {
+        display: block!important;
+        width: 208px;
+        margin: 1rem;
+        font-size: 18px;
+        padding: 10px 2rem;
+        height: 54px;
+        margin-left: 65px;
+    }
+    .container-card {
+        width: 25%!important;
+    }
+    .titleProducts{
+        width:  25%!important;
+    }
+    .products-title{
+        font-size: 32px;
+        line-height: 70px;
+    }
+    .card-body-two{
+        display: none;
+    }
+    
+    .accesories{
+        background-size: 100% 100%;
+    }
+    .shopAndUs-titleTwo{
+        display: none;
+    }
+    .shopAndUs-button{
+        font-size: 1.2rem;
+        height: 54px;
+        padding-top: 10px;
+    }
+    .footer-logo-container{
+        margin-top: 8%;
+        margin-right: 10%;
+    }
+    .logo-footer{
+        width: 38px;
+        height: 39px;
+    }
+    .footer-whatsapp-container {
+        margin-bottom: 30%;
+        margin-left: 75%;
+    }
+    .footer-links{
+        font-size: 24px;
+    }
+
+}
+
+@media (max-width: 1440px){
+    
+    .header-dots{
+        width: 25%!important;
+    }
+    .titleOne{
+        padding-top: 10%!important;
+     }
+     .header-container-logo{
+        padding-top: 4%;
+    }
+}
+@media (max-width: 1340px){
+    .header-container-logo{
+        padding-top: 4%!important;
+    }
+    
+}
+
+@media (max-width: 1240px){
+    .header-container-logo {
+        padding-top: 4% !important;
+    }
+    .titleOne{
+        padding-top: 10%!important;
+    }
+}
+
+@media (min-width: 1100px){
+    .payments-title{
+        font-size: 26px;
+        width: 240px;
+    }
+    
+}
+@media (max-width: 1100px){
+    .banner{
+        height: 450px;
+    }
+    .titleOne{
+        padding-top: 12%!important;
+    }
+    .header-container-logo{
+        padding-top: 4%!important;
+    }
+}
+@media (max-width: 1040px){
+    .titleOne{
+        padding-top: 20%;
+     }
+    }
+
+@media (min-width: 769px){
+    .header-container-logo {
+        padding-left: 8%;
+        margin-top: 8%;
+    }
+    .main-logo {
+        width: 221px;
+        height: 218px;
+    }
+  
+    .titleOne{
+        padding-top: 25%;
+        margin-right: 10px;
+    }
+
+    .payments-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .payments-icons {
+        padding: 0 2rem;
+    }
+    .envios{
+        margin-top: 3%;
+    }
+    .titleProducts{
+        width: 100%;
+    }
+    
+    .shopAndUs {
+        margin-bottom: 5rem;
+    }
+    .card-body-two{
+        display: none;
+    }
+    .shopAndUs-titleTwo{
+        display: none;
+    }
+    .shopAndUs-card{
+        flex-direction: row;
+    }
+}
+
 @media (min-width: 768px){
     /* HEADER */
+    .main-titleOne {
+        font-size: 25px;
+        line-height: 54px;
+        margin-top: 0;
+    }
+    .header-dots {
+        width: 30%;
+        margin-left: 20px;
+    }
+   
     .titleTwo, .main-titleTwo{
         display: none;
     }
@@ -340,33 +585,52 @@ footer{
     .products-buttonTwo{
         display: none;
     }
-    /* TIPS AND US */
-    .shopAndUs-titleTwo{
-        display: none;
+    .payments-tIcons-container{
+        flex-direction: row;
     }
+    /* TIPS AND US */
+    
     .banner{
         max-width: 100%;
-        height: 320px;
-        background-size: 100% 100%;
     }
+
+    .container-card{
+        width: 33%;
+    }
+    .container-card .card {
+        width: 100%;
+    }
+    .product-card-title {
+        font-size: 1.1rem;
+    }
+    .products-buttonOne {
+        display: none;
+    }
+    .product-card-text {
+        font-size: 0.9rem;
+    }
+    .h-100 {
+        height: 87%!important;
+    }
+    .products-images {
+        padding: 0;
+        max-height: 70%;
+    }
+   
+    .card-body-one{
+        display: contents;
+    }
+    
     /* FOOTER */
     .footer-social-container {
         margin: 0 1rem 1rem 0;
     }
 }
 
-@media (max-width: 1085px){
-    .header-container-logo{
-        padding-left: 0;
-        margin-top: 12%;
-    }
-}
+
 
 @media (min-width: 992px){
     /*NAV BAR */
-    .banner{
-        height: 776px;
-    }
     .nav-logo{
         position: absolute;
         margin-left: 1%;
@@ -426,25 +690,12 @@ footer{
         color: var(--colorSix);
         border-bottom: 1px solid var(--colorSix);
     }
-    .banner {
-        height: 550px!important;
-    }
+    
     .titleOne {
-        width: 60%;
-        padding-top: 20%;
+        
+        padding-top: 15%!important;
     }
-    .main-titleOne{
-        margin-top: 0%;  
-        font-size: 2.2rem; 
-    }
-    .header-container-logo {
-        padding-left: 5%;
-        margin-top: 5%;
-    }
-    .main-logo {
-        width: 250px;
-        height: 250px;
-    }
+   
     /* PAYMENTS */
     .payments-container{
         width: 100%;
@@ -462,12 +713,13 @@ footer{
     }
 }
 
-@media (max-width: 823px){
-    .title-one{
-        margin-right: 0px;
-    }.titleOne {
-        margin-right: 0px;
+@media (max-width: 840px){
+    .titleOne{
+       padding-top: 25%;
     }
+
+}
+@media (max-width: 823px){
     .box-social{
         display: flex;
         flex-direction: row;
@@ -478,8 +730,7 @@ footer{
     /*NAV BAR */
     .banner{
         max-width: 100%;
-        height: 500px !important;
-        background-size: 100% 100%;
+        height: 400px ;
     }
 
     nav.navbar{
@@ -528,14 +779,17 @@ footer{
     }
     /* HEADER */
     .header-container-logo{
-        padding: 0;
+        padding-top: 0!important;
+    }
+    .header-dots {
+        display: none;
+        width: 30%;
     }
     .main-logo {
-        /*display: none;*/
         width: 250px;
         height: 250px;
-        margin-left: 10%;
-        margin-top: 57%;
+        margin-left: 0%;
+        margin-top: 30%;
     }
     .titleTwo{
         display: none;
@@ -549,13 +803,14 @@ footer{
         z-index: 1;
     }.titleOne {
         position: relative;
-        width: 55%;
+        width: 48%;
         float: right;
-        padding-top: 25%;
+        padding-top: 5%!important;
         margin-right: 10px;
     }
     .main-titleOne {
-        font-size: 1.8rem;
+        font-size: 25px;
+        line-height: 43px;
     }
 
     /* PAYMENTS */
@@ -575,16 +830,20 @@ footer{
     }
 
     /* PRODUCTS */
+    .products-title{
+        font-size: 180%;
+    }
     .products-buttonTwo{
         color: var(--colorSix);
         font-family: var(--fontTwo);
         background-color: var(--colorTwo);
-        font-size: 1rem;
+        font-size: 18px;
         font-weight: 600;
-        margin: 1rem;
-        padding: 1rem 5rem;
+        margin: 2rem;
+        padding: 1rem 0rem;
         border-radius: 60px;
         border: none;
+        width: 60%;
     }
     .products-buttonTwo:hover{
         background-color: #BBE9E3;
@@ -592,45 +851,90 @@ footer{
     .products-buttonTwo:active{
         background-color: #4D5680;
     }
+    .container-card{
+        width: 60% !important;
+        margin-left: 20%;
+        margin-bottom: 12%;
+    }
+    .shopAndUs-card{
+        margin-right: 6px!important;
+    }
     .products-cards{
         width: 100%;
         margin: 1rem auto;
+    }
+    .h-100 {
+        height: 120% !important;
+    }
+    .card{
+        width: 100%;
+        margin: 0;
+    }
+    .card-body{
+        padding: 0;
+    }
+    .product-card-title {
+        font-size: 18px;
+    }
+    .product-card-text{
+        font-size: 14px;
     }
 
     /* ACCESORIES */
     .accesories-button{
         font-weight: 600;
-        padding: 1rem 5rem;
+        padding: 1rem 0rem;
         font-size: .75rem;
     }
     a.btn.btn-primary.accesories-button{
         font-size: 1rem;
     }
-
-    /* TIPS AND US */
+  
+    .card-group {
+        margin-top: 8%;
+    }
     .shopAndUs{
         margin-bottom: 5rem;
+    }
+    .img-fluid {
+        max-width: 126%;
+        height: 105%;
+        margin-left: 40%;
     }
     .shopAndUs-titleTwo{
         color: var(--colorOne);
         font-family: var(--fontOne);
-        font-size: 2rem;
+        font-size: 22px;
         margin-bottom: 1rem;
         text-align: center;
+        margin-top: 15%;
     }
-    .shopAndUs-text{
-        font-size: 1rem;
+    .card-body-one{
+        display: none;
     }
-    .shopAndUs-button{
-        font-size: 1rem;
-        font-weight: 600;
-        width: 100%;
+    .shopAndUs-titleOne{
+        font-size: 100%;
+        display: none   ;
+    }
+    .shopAndUs-text {
+        font-size: 16px;
+        width: 75%;
+        margin-left: 15%;
+    }
+    .shopAndUs-button {
+        width: 57%;
+        font-size: 18px;
+        margin-left: 21%;
     }
     .shopAndUs-center{
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: left;
         align-items: center;
+    }
+    .col-md-6 {
+        flex: 0 0 auto;
+        width: 50%;
     }
 
     /* FOOTER */
@@ -666,53 +970,66 @@ footer{
         margin: 0;
     }
 }
-@media (max-width: 767px){
-    .shopAndUs-titleOne{
-        display: none;
-    }
-}
+
 
 @media (max-width: 630px){
     .banner {
-        height: 400px !important;
+        height: 300px !important;
     }
-    .header-container-logo {
-        margin-top: 14%;
+    .header-container-logo{
+        margin-top: 0;
     }
+    
     .main-logo {
         width: 200px;
         height: 200px;
         margin-top: 13%;
     }
-    .header-dots {
-        width: 100px;
-    }
+    
     .titleOne{
         padding-top: 22%;
+        width: 45%;
     }
     .main-titleOne {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
+    .container-card{
+        padding-right: 5px;
+        padding-left: 10px;
+    }
+    .products-images{
+        padding: 0;
+    }
+    
 }
 
 @media (max-width: 576px){
+    .titleOne {
+        padding-top: 0;
+    }
     .payments-tIcons-container{
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+    .card-group {
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .card-group > .card {
+        flex: 1 0 0%;
+    }
     
 }
 
 @media (max-width: 515px){
-    .banner {
-        height: 300px !important;
-    }
+    
     .header-dots {
         display: none;
     }
-    .titleOne {
-        padding-top: 5%;
+    .header-container-logo{
+        padding-left: 5%;
+        margin-top: 2%;
     }
     .main-logo{
         margin-top: 6%;
@@ -721,12 +1038,15 @@ footer{
     .accesories{
         margin-left: -10%;
     }
-}
-
-@media (max-width: 452px){
-    .accesories{
-        margin-left: -20%;
+    .products-title{
+        font-size: 140%;
     }
+    .shopAndUs-text {
+     
+        height: 90px;
+    }
+
+    
 }
 
 @media (max-width: 490px){
@@ -739,7 +1059,7 @@ footer{
     }
     .header-container-logo{
         position: absolute;
-        margin-top: 10%;
+        margin-top: 0%;
     }
     .main-logo {    
         width: 75%;
@@ -749,26 +1069,12 @@ footer{
     }
     .titleOne{
         margin-right: 0px;
-        width: 70%;
-        padding-top: 0;
+        width: 58%;
+        padding-top: 0%!important;
     }
     .main-titleOne{
         font-size: 1.2rem;
-    }
-}
-@media (max-width: 398px){
-    .main-titleTwo {
-        font-size: 1.5rem;
-    }
-}
-@media (max-width: 355px){
-    .main-titleTwo {
-        font-size: 1.1rem;
-    }
-}
-@media (max-width: 319px){
-    .main-titleTwo {
-        font-size: 1rem;
+        line-height: 43px;
     }
 }
 @media (max-width: 480px){
@@ -798,8 +1104,44 @@ footer{
         margin: 10% 0 0 0;
     }
     /* PRODUCTS */
-    .products-cards{
-        width: 80%;
-        margin-left: 10%;
+    
+    .products {
+        padding: 1rem;
+    }
+    
+    .product-card-title {
+        font-size: 16px;
+    }
+    .product-card-text {
+        font-size: 12px;
+    }
+
+}
+@media (max-width: 452px){
+    .accesories{
+        margin-left: -20%;
     }
 }
+
+@media (max-width: 398px){
+    .main-titleTwo {
+        font-size: 1.5rem;
+    }
+    .accesories {
+        margin-left: -26%;
+    }
+   
+}
+@media (max-width: 355px){
+    .main-titleTwo {
+        font-size: 1.1rem;
+    }
+}
+@media (max-width: 319px){
+    .main-titleTwo {
+        font-size: 1rem;
+    }
+}
+
+
+
