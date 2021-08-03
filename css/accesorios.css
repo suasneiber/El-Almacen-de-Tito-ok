@@ -127,6 +127,9 @@
     .main-title-accesories{
         font-size: 2rem;
     }
+    .last-section{
+        margin: 2rem 1rem;
+    }
     .accesories-first-title, .accesories-second-title{
         font-size: 1.375rem;
     }
