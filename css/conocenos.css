@@ -31,8 +31,7 @@
     text-align: center;
 }
 
-.justify-content-center {
-    justify-content: center !important;
+.justify-content-center { 
     width: 100%;
 }
 
@@ -112,7 +111,6 @@ color: #000000;
 .clientes{
     position: relative;
     margin-top: 5%;
-    margin-left: 38%;
     margin-left: 0;
 }
  .clientes .row{
@@ -155,8 +153,8 @@ color: #000000;
 }
 
 .calificacion-num{
-    margin-top: 1px;position: absolute;
-    margin-left: 55%!important;
+    position: absolute;
+    margin-left: 160px;
     margin-top: -26px;
     color: #807C97;
 }
@@ -184,6 +182,27 @@ color: #000000;
 }
 
 /* MEDIA QUERIES */
+@media (min-width: 1840px){
+    .cliente-cards {
+        padding-left: 25px;
+        padding-right: 24px;
+        padding-top: 24px;
+    }
+    .calificacion{
+        margin-left: 0px;
+    }
+    .estrellas {
+        width: 28.53px;
+        margin-left: 0;
+    }
+    .card-body .comentarios {
+        margin-top: 4%;
+    }
+    .card-cliente {
+        margin-top: 20%;
+    }
+}
+
 @media (min-width: 1440px){
     .banner-conocenos{
         max-width: 100%;
@@ -196,7 +215,7 @@ color: #000000;
         padding-right: 10%;
     }
     .clientes{
-        width: 85%!important;
+        width: 85%;
         margin-left: 7.5%;
     }
 }
@@ -221,6 +240,9 @@ color: #000000;
     .card-body .comentarios{
         margin-top: 4%;
     }
+    .calificacion-num{
+        margin-left: 160px;
+    }
 }
 
 @media (max-width: 1439px){
@@ -237,14 +259,14 @@ color: #000000;
     .cliente-cards{
         padding-left: 15px;
         padding-right: 12px;
-        height: 228.29px;
+        height: 250.29px;
         width: 300px;
     }
     .calificacion {
         margin-left: 0px;
     }
     .calificacion-num{
-        margin-left: 95px!important;
+        margin-left: 95px;
         margin-top: -22px;
     }
     .estrellas{
@@ -277,8 +299,8 @@ color: #000000;
         margin-left: 9%;
     }
     .cliente-cards{
-        height:  206.29px!important;
-        width: 220px!important;
+        height:  215.29px;
+        width: 220px;
         padding-top: 5px;
     }
 } 
@@ -314,7 +336,7 @@ color: #000000;
     .cliente-cards {
         margin: 20% 10%;
         
-        height: 206.29px!important;
+        height: 206.29px;
         padding-top: 5px;
     }
 }
@@ -422,22 +444,22 @@ color: #000000;
     }
     
     .cliente-cards {
-        width: 67% !important;
-        margin-left: 18% !important;
-        height: 371px!important;
+        width: 55%;
+        margin: 0% 10% 0 23%;
+        height: 341px;
         padding-left: 25px;
-        padding-top: 20px!important;
+        padding-top: 20px;
         padding-right: 15px;
     }
     .calificacion {
         margin-left: 0px;
     }
     .estrellas {
-        width: 28px!important;
+        width: 28px;
         margin: 15px 1px 0px 5px;
     }
     .card-cliente{
-        margin-top: 80px!important;
+        margin-top: 60px;
     }
     .row-cols-lg-4 > * {
         width: 33%;
@@ -445,9 +467,9 @@ color: #000000;
     /* CLIENTES */
    
     .calificacion-num {
-        margin-left: 145px!important ;
+        margin-left: 145px;
         font-size: 24px;
-        margin-top: -26px!important;
+        margin-top: -26px;
     }
     .comentarios{
         margin-top: 10%!important;
@@ -465,9 +487,21 @@ color: #000000;
     .objetivo p{
         margin-top: 5%;
     }
+    .cliente-cards {
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 0;
+        height: 321px;
+    }.card-cliente{
+        margin-top:45px;
+    }
 }
 
 
+
+@media (max-width: 575px){
+
+}
 
 @media (max-width: 575px){
     .objetivo{
@@ -481,10 +515,10 @@ color: #000000;
     }
     
     .cliente-cards {
-        width: 87%!important;
-        margin-left: 8%!important;
+        width: 72%;
+        margin-left: 15%;
         margin-right: 0;
-        height: 321px!important;
+        height: 321px;
     }
     .card-cliente {
         margin-top: 40px !important;
@@ -497,13 +531,16 @@ color: #000000;
     }
     .objetivo{
         margin-top: 0%;
+    } 
+    .cliente-cards {
+        width: 92%;
+        margin-left: 8%;
     }
 }
 @media (max-width: 447px){
     .valores{
         margin-top: 70%;
-    }
-    
+    }   
 }
 
 @media (max-width: 420px){
