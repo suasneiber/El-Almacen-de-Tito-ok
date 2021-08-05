@@ -494,52 +494,12 @@ footer{
     }
 }
 
-@media (min-width: 1200px){
-    .nav-title{
-        display: none;
-    }
-    .nav-logo{
-        position: absolute;
-        margin-left: 1%;
-    }
-}
-
-@media (max-width: 1200px){
-    .nav-title {
-        font-family: var(--fontOne);
-        color: var(--colorSix);
-        font-size: 1.2rem;
-        text-align: center;
-    }
-    div.navbar-collapse{
-        background-color: rgba(106, 106, 106, 0.81);
-        padding-top: 1rem;
-        z-index: 10;
-    }
-    .container-nav{
-        padding: 0;
-    }
-    .nav-logo-width {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-    .navbar-dark .navbar-nav .nav-link{
-        color: white;
-    }
-    .nav-link{
-        text-align: center;
-        color: var(--colorSix);
-        border-bottom: 1px solid var(--colorSix);
-        text-shadow: none;
-        font-weight: 600;
-    }
-}
 @media (min-width: 1100px){
     .payments-title{
         font-size: 26px;
         width: 240px;
     }
+    
 }
 @media (max-width: 1100px){
     .banner{
@@ -667,13 +627,13 @@ footer{
 
 @media (min-width: 992px){
     /*NAV BAR */
-    /* .nav-logo{
+    .nav-logo{
         position: absolute;
         margin-left: 1%;
-    } */
-    /* .nav-title{
+    }
+    .nav-title{
         display: none;
-    } */
+    }
     /* PAYMENTS */
     .payments-container{
         width: 100%;
@@ -685,23 +645,48 @@ footer{
     nav.navbar{
         height: 46px;
     }
-    /* .nav-link{
+    .nav-link{
         text-shadow: none;
         font-weight: 600;
-    } */
+    }
     .navbar-toggler-icon{
         top: 0;
     }
-    /* .navbar-dark .navbar-nav .nav-link{
+    .navbar-dark .navbar-nav .nav-link{
         color: white;
-    } */
+    }
     .container-nav{
         padding: 0;
     }
-    
+    div.navbar-collapse{
+        background-color: rgba(106, 106, 106, 0.81);
+        padding-top: 1rem;
+        z-index: 10;
+    }
+    .nav-title{
+        font-family: var(--fontOne);
+        color: var(--colorSix);
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .nav-logo-width{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .navbar-brand{
+        margin-right: 0;
+        align-content: center;
+    }
     .nav-logo{
         padding: 0 auto;
     }
+    .nav-link{
+        text-align: center;
+        color: var(--colorSix);
+        border-bottom: 1px solid var(--colorSix);
+    }
+    
     .titleOne {
         
         padding-top: 15%!important;
@@ -757,9 +742,9 @@ footer{
     .navbar-dark .navbar-nav .nav-link{
         color: white;
     }
-    /* .container-nav{
+    .container-nav{
         padding: 0;
-    } */
+    }
     div.navbar-collapse{
         background-color: rgba(106, 106, 106, 0.81);
         padding-top: 1rem;
