@@ -31,9 +31,12 @@
     text-align: center;
 }
 
-.justify-content-center { 
+.fin-valores { 
     width: 100%;
-}
+} 
+/* .clientes .title{
+    width: 100%;
+} */
 
 p{
     padding: 0% 10% 0% 10%;
@@ -126,6 +129,7 @@ color: #000000;
     font-family: mama-papa;
     color: #A9D156;
     text-align: center;
+    width: 100%;
 }
 .clientes .col{
     
@@ -140,6 +144,9 @@ color: #000000;
     border-radius: 20px;
     width: 85%;
     height: 321px;
+}
+.body-clientes{
+    padding: 1rem 0rem;
 }
 
 .calificacion{
@@ -457,6 +464,9 @@ color: #000000;
     .estrellas {
         width: 28px;
         margin: 15px 1px 0px 5px;
+    }
+    .body-clientes{
+        padding: 0;
     }
     .card-cliente{
         margin-top: 60px;

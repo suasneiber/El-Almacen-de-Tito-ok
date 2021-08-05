@@ -244,10 +244,6 @@ header{
 .shopAndUs{
     margin-bottom: 10rem;
 }
-.img-fluid {
-    max-width: 110%;
-    height: 105%;
-}
 .shopAndUs-card{
     border: none;
     margin: 1rem auto;
@@ -288,9 +284,9 @@ header{
     color: #807C97;
     border: 1px solid #807C97;
 }
-.card-body {
+/* .card-body {
     padding: 1rem 0rem;
-}
+} */
 
 /* FOOTER */
 footer{
@@ -409,6 +405,7 @@ footer{
     }
     .payments-tIcons-container{
         width: 56%;
+        flex-direction: row;
     }
     .envios {
         margin-top: 0!important;
@@ -497,12 +494,52 @@ footer{
     }
 }
 
+@media (min-width: 1200px){
+    .nav-title{
+        display: none;
+    }
+    .nav-logo{
+        position: absolute;
+        margin-left: 1%;
+    }
+}
+
+@media (max-width: 1200px){
+    .nav-title {
+        font-family: var(--fontOne);
+        color: var(--colorSix);
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    div.navbar-collapse{
+        background-color: rgba(106, 106, 106, 0.81);
+        padding-top: 1rem;
+        z-index: 10;
+    }
+    .container-nav{
+        padding: 0;
+    }
+    .nav-logo-width {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .navbar-dark .navbar-nav .nav-link{
+        color: white;
+    }
+    .nav-link{
+        text-align: center;
+        color: var(--colorSix);
+        border-bottom: 1px solid var(--colorSix);
+        text-shadow: none;
+        font-weight: 600;
+    }
+}
 @media (min-width: 1100px){
     .payments-title{
         font-size: 26px;
         width: 240px;
     }
-    
 }
 @media (max-width: 1100px){
     .banner{
@@ -570,9 +607,6 @@ footer{
     .card-body-two{
         display: none;
     }
-    .shopAndUs-img{
-
-    }
     .shopAndUs-titleTwo{
         display: none;
     }
@@ -633,13 +667,13 @@ footer{
 
 @media (min-width: 992px){
     /*NAV BAR */
-    .nav-logo{
+    /* .nav-logo{
         position: absolute;
         margin-left: 1%;
-    }
-    .nav-title{
+    } */
+    /* .nav-title{
         display: none;
-    }
+    } */
     /* PAYMENTS */
     .payments-container{
         width: 100%;
@@ -651,48 +685,23 @@ footer{
     nav.navbar{
         height: 46px;
     }
-    .nav-link{
+    /* .nav-link{
         text-shadow: none;
         font-weight: 600;
-    }
+    } */
     .navbar-toggler-icon{
         top: 0;
     }
-    .navbar-dark .navbar-nav .nav-link{
+    /* .navbar-dark .navbar-nav .nav-link{
         color: white;
-    }
+    } */
     .container-nav{
         padding: 0;
     }
-    div.navbar-collapse{
-        background-color: rgba(106, 106, 106, 0.81);
-        padding-top: 1rem;
-        z-index: 10;
-    }
-    .nav-title{
-        font-family: var(--fontOne);
-        color: var(--colorSix);
-        font-size: 1.2rem;
-        text-align: center;
-    }
-    .nav-logo-width{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-    .navbar-brand{
-        margin-right: 0;
-        align-content: center;
-    }
+    
     .nav-logo{
         padding: 0 auto;
     }
-    .nav-link{
-        text-align: center;
-        color: var(--colorSix);
-        border-bottom: 1px solid var(--colorSix);
-    }
-    
     .titleOne {
         
         padding-top: 15%!important;
@@ -748,9 +757,9 @@ footer{
     .navbar-dark .navbar-nav .nav-link{
         color: white;
     }
-    .container-nav{
+    /* .container-nav{
         padding: 0;
-    }
+    } */
     div.navbar-collapse{
         background-color: rgba(106, 106, 106, 0.81);
         padding-top: 1rem;
@@ -865,9 +874,6 @@ footer{
         width: 271px;
         margin: 1rem auto;
     }
-    .card-body{
-        padding: 0;
-    }
     .products-body{
         height: 45px;
     }
@@ -889,14 +895,14 @@ footer{
         font-size: 1rem;
     }
   
-    .card-group {
+    .card-container {
         display: block;
         margin-top: 8%;
     }
     .shopAndUs{
         margin-bottom: 5rem;
     }
-    .img-fluid {
+    .shopAndUs-img {
         max-width: 126%;
         height: 105%;
         margin-left: 40%;
@@ -932,7 +938,11 @@ footer{
         justify-content: left;
         align-items: center;
     }
-    .col-md-6 {
+    /* .col-md-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    } */
+    .img-col {
         flex: 0 0 auto;
         width: 50%;
     }
@@ -1012,11 +1022,11 @@ footer{
         justify-content: center;
         align-items: center;
     }
-    .card-group {
+    .card-container {
       
         flex-flow: row wrap;
     }
-    .card-group > .card {
+    .card-container > .card {
         flex: 1 0 0%;
     }
     .products-cards {
